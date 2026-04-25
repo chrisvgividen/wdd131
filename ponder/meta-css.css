@@ -1,0 +1,40 @@
+body {
+    background-color: #ddd;
+    font-size: 20px;
+}
+#content {
+    max-width: 60%;
+    border: 5px, solid darkgray;
+    border-color: #e78b00;
+    margin: 40px auto;
+    padding: 50px;
+}
+p {
+    color: #6b64cc;
+    font-size: 1.3em;
+}
+hr {
+    height: 3px;
+    background-color: #e78b00;
+    width: 80%;
+    margin-top: 50px;
+}
+h1, h2, p {
+    text-align: center;
+}
+/* #logos {                           // This is one way to center an image, using more html
+    text-align: center;
+} */
+img {
+    width: 50%;
+    display: block;
+    margin: 50px auto;
+}
+#topics {
+    line-height: 1.5em;
+    margin: 0 auto;
+    width: 50%;
+}
+.list {
+    list-style-type: none;
+}
