@@ -102,4 +102,4 @@ const nameSummary = `
 
 console.log(nameSummary);
 
-console.log("Not sure if I'm just a little dumb, but I don't know how I should be using Template Literals. And I get the same error here as I did in the .reduce(), saying something about how the .innerHTML is wrong. Sorry.")
+console.log("I don't know how I should be using Template Literals. And I get the same error here as I did in the .reduce(), saying something about how the .innerHTML is wrong. Sorry.")
