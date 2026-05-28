@@ -45,6 +45,27 @@ const movies = [
     movies.forEach(movie => {
 
         // Code for going through each movie and creating content for that movie
-    
+
+        // The goal is to display a movie card for each movie object in the array
+
+        // 1. Building HTML for the card
+        const card = `
+        
+            <article class="movie">
+            <h2>${movie.title}</h2>
+            <img src="${movie.imgSrc}" alt="${movie.imgAlt}">
+            <p><strong>Release Date:</strong> ${movie.date}</p>
+            <p><strong>Recommended Age:</strong> ${movie.ages}</p>
+            <p><strong>Genre:</strong> ${movie.genre}</p>
+            <p><strong>Rating:</strong> <span>${movie.stars}</span></p>
+            <p id='desc'>${movie.description}</p>
+            </article>
+        
+        
+        `;
+
+
+        // 2. Putting that HTML on the page
+        document.getElementById("movie-list").innerHTML += card;
     });
           
