@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Recipe Book Part 1</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel = "stylesheet" href = "recipe.css">
+    <script src = "recipe.js" defer></script>
+</head>
+<body>
+    <!-- Gonna be honest, no clue what I should do with all the og meta tags and social preview images. -->
+
+    <!-- Open Graph (Facebook, LinkedIn, etc.) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Your Title">
+    <meta property="og:description" content="Your Description">
+    <meta property="og:url" content="Your URL">
+    <meta property="og:image" content="social-preview-image.png">
+
+    <!-- X Card -->
+    <meta name="twitter:card" content="Social Preview Image">
+    <meta name="twitter:title" content="Your Title">
+    <meta name="twitter:description" content="Your Description">
+    <meta name="twitter:image" content="social-preview-image.png">
+
+    <!-- One favicon (ICO works everywhere) -->
+    <link rel="icon" href="/favicon.ico">
+
+    <!-- One Apple Touch Icon (iOS home screen) -->
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+
+
+    <header>
+        <img src = "images/recipe-book.png" alt = "Recipe Book Icon">
+
+        <h1><span class = "header-title">Recipe Book</span></h1>
+    </header>
+
+    <div class = "search-box">
+        <input type = "text" class = "search-box-input" placeholder="Find a Recipe">
+        <img src = "images/search.svg" alt = "Search Image" class = "search-image">
+    </div>
+
+    <section class = "food-card">
+
+        <section class = "card-content">
+            <img src = "images/apple-crisp.jpg" alt = "Apple Crisp" class = "card-image">
+
+            <div class = "card-info">
+                <h2 class = "food-type">Dessert</h2>
+
+                <h3><span class = "card-title">Apple Crisp</span></h3>
+
+                <span
+                class="rating"
+                role="img"
+                aria-label="Rating: 4 out of 5 stars"
+                >
+                <span aria-hidden="true" class="icon-star">⭐</span>
+                <span aria-hidden="true" class="icon-star">⭐</span>
+                <span aria-hidden="true" class="icon-star">⭐</span>
+                <span aria-hidden="true" class="icon-star">⭐</span>
+                <span aria-hidden="true" class="icon-star-empty">☆</span>
+
+                <p class = "descriptions">This apple crisp recipe is a simple yet delicious fall dessert that's great served warm with vanilla ice cream.</p>
+
+                </span>
+            </div>
+        </section>
+                
+    </section>
+
+    <footer>
+
+        <div class="social">
+        <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates  -->
+        <a href="#"><img src="images/instagram_icon.svg" alt="instagram icon"></a>
+        <a href="#"><img src="images/youtube_icon.svg" alt="youtube icon"></a>
+        <a href="#"><img src="images/pinterest_icon.svg" alt="pinterest icon"></a>
+        </div>
+
+        <a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons created by Freepik - Flaticon</a>
+        
+    </footer>
+                
+</body>
+</html>

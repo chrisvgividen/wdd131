@@ -1,0 +1,161 @@
+/* @import url("https://googleapis.com"); */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    max-width: 1280px;
+    margin: auto;
+    padding: 1em;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header-title {
+    font-family: "Amatic SC", cursive;
+    font-size: 2.5em;
+    font-style: normal;
+}
+header img {
+    max-width: 8em;
+    height: 8em;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 25em;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin: 50px auto;
+}
+
+.search-box-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+}
+
+.search-image {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    object-fit: contain;
+}
+
+.food-card {
+    border: 2px solid black;
+    /* text-align: center; */
+    width: 25em;
+    margin: 40px auto;
+    margin-bottom: 30px;
+}
+
+.card-image {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 90%;
+    margin-left: 1.2em;
+    margin-bottom: 0px;
+}
+
+.card-info {
+    margin-left: 1.2em;
+    margin-bottom: 1em;
+}
+
+.food-type {
+    font-size: 1.5em;
+    border: 1px solid black;
+    width: 3.5em;
+    padding-left: 5px;
+    margin: 5px;
+    background-color: lightgray;
+}
+
+.card-title {
+    font-family: "Amatic SC", cursive;
+    font-size: 2.5em;
+    font-style: normal;
+    color: blue;
+}
+
+footer {
+    text-align: center;
+}
+
+.social img{
+    max-width: 5%;
+    margin-bottom: 20px;
+}
+
+
+
+
+@media screen and (max-width: 630px) {
+    .descriptions {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 631px) {
+    .card-content {
+        display: flex;
+        text-align: left;
+    }
+    .search-box {
+        width: 45em;
+    }
+    
+    .card-info {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .food-content .card-info {
+        width: 20%;
+    }
+
+    .food-card {
+        width: 45em;
+        padding-bottom: 20px;
+    }
+
+    .food-type {
+        margin: 0px;
+    }
+    
+    .card-image {
+        width: 50%;
+        margin-right: 0px;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+
+    .social img {
+        width: 10%;
+        /* margin-left: 0px;
+        padding-left: 0%; */
+        align-items: center;
+    }
+
+    .social {
+        text-align: right;
+    }
+}
